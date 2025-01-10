@@ -655,6 +655,15 @@ main .section-7 .input-layout span {
     text-align: left;
 }
 
+main .section-7 .input-layout span:hover {
+    color: white;
+    background-color: rgb(67, 144, 57);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer; 
+}
+
+
+
 
 /*        */
 /* footer */
