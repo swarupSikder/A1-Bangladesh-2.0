@@ -24,6 +24,7 @@
     background-color: rgb(67, 144, 57);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .section-title {
@@ -45,6 +46,12 @@
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+.item:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 * {
@@ -102,6 +109,7 @@ header nav button:hover {
     background-color: rgb(67, 144, 57);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
+    transition: 0.3s;
 }
 
 /*        */
@@ -595,8 +603,6 @@ main .section-6 .item-layout .bg-selected {
 main .section-6 .item-layout .item:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(67, 144, 57);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    cursor: pointer;
 }
 
 main .section-6 input {
@@ -678,7 +684,8 @@ main .section-7 .input-layout span:hover {
     color: white;
     background-color: rgb(67, 144, 57);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    cursor: pointer; 
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 
