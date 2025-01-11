@@ -109,8 +109,6 @@ header nav button:hover {
 /*        */
 main {
     width: 100%;
-    /* width: 90%;
-    padding: 0% 5%; */
 }
 
 /* section-1 */
@@ -125,6 +123,9 @@ main .section-1 {
 }
 main .section-1 .left {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 main .section-1 .left h4 {
     color: rgba(14, 14, 14, 0.5);
@@ -144,6 +145,9 @@ main .section-1 .left h1 {
     letter-spacing: 0%;
     text-align: left;
 }
+main .section-1 .left button {
+    width: fit-content;
+}
 main .section-1 .right {
     width: 50%;
     display: flex;
@@ -154,6 +158,8 @@ main .section-1 .right img {
     width: 474.03px;
     height: 400px;
 }
+
+
 
 
 
