@@ -109,6 +109,8 @@ header nav button:hover {
 /*        */
 main {
     width: 100%;
+    /* width: 90%;
+    padding: 0% 5%; */
 }
 
 /* section-1 */
@@ -578,6 +580,17 @@ main .section-6 .item-layout .item {
     line-height: 48px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+main .section-6 .item-layout .bg-selected {
+    background: rgb(198, 228, 214);
+}
+
+main .section-6 .item-layout .item:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(67, 144, 57);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
 }
 
 main .section-6 input {
