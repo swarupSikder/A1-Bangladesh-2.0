@@ -506,10 +506,6 @@ main .section-5 .item-layout .item-reverse {
     flex-direction: row-reverse;
 }
 
-main .section-5 .item-layout .item .left {
-
-}
-
 main .section-5 .item-layout .item .left img {
     width: 500px;
     height: 350px;
@@ -641,10 +637,16 @@ main .section-7 {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    gap: 3px;
     margin: 80px 160px;
     padding: 80px 100px 80px 100px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
+}
+
+main .section-7 p {
+    padding: 0 200px;
+    text-align: center;
 }
 
 main .section-7 .input-layout {
@@ -657,7 +659,7 @@ main .section-7 .input-layout {
 main .section-7 .input-layout input {
     border-radius: 8px 0px 0px 8px;
     background: rgb(255, 255, 255);
-    padding: 18px 40px 18px 40px;
+    padding: 19px 60px 18px 40px;
     border: none;
     color: rgba(14, 14, 14, 0.3);
     font-family: Fira Sans;
