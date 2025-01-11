@@ -652,9 +652,11 @@ main .section-7 {
 main .section-7 p {
     padding: 0 0;
     text-align: center;
+    margin: 0 15%;
 }
 
 main .section-7 .input-layout {
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -662,6 +664,7 @@ main .section-7 .input-layout {
 }
 
 main .section-7 .input-layout input {
+    width: 100%;
     border-radius: 8px 0px 0px 8px;
     background: rgb(255, 255, 255);
     padding: 19px 60px 18px 40px;
