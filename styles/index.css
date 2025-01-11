@@ -292,6 +292,10 @@ main .section-3 .item-layout .item h1 {
     text-align: left;
 }
 
+main .section-3 .item-layout .item button {
+    margin-top: auto;
+}
+
 main .section-3 .item-layout .item .btn-blue {
     width: fit-content;
     border-radius: 8px;
