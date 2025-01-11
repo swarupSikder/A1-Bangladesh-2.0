@@ -126,8 +126,8 @@ main .section-1 {
     justify-content: space-between;
     border-radius: 24px;
     background: rgb(198, 228, 214);
-    margin: 80px 160px;
-    padding: 80px 100px 80px 100px;
+    margin: 40px 160px;
+    padding: 4% 5%;
 }
 main .section-1 .left {
     width: 50%;
@@ -163,8 +163,7 @@ main .section-1 .right {
     justify-content: center;
 }
 main .section-1 .right img {
-    width: 474.03px;
-    height: 400px;
+    width: 80%;
 }
 
 
@@ -184,7 +183,7 @@ main .section-2 {
     align-items: start;
     justify-content: space-between;
     border-radius: 24px;
-    margin: 80px 160px;
+    margin: 40px 160px;
     padding: 80px 0px;
 }
 
@@ -198,15 +197,15 @@ main .section-2 .item-layout {
 
 main .section-2 .item-layout .item {
     width: 362px;
-    height: 300px;
+    height: 360px;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 2px;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
-    padding: 24px;
+    padding: 3%;
     margin: 0px 0px;
 }
 
@@ -223,6 +222,7 @@ main .section-2 .item-layout .item h1 {
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+    margin: 10px 0 10px 0;
 }
 
 main .section-2 .item-layout .item p {
@@ -253,7 +253,7 @@ main .section-3 {
     align-items: start;
     justify-content: space-between;
     border-radius: 24px;
-    margin: 80px 160px;
+    margin: 40px 160px;
     padding: 80px 0px;
 }
 
@@ -268,6 +268,7 @@ main .section-3 .item-layout {
 
 main .section-3 .item-layout .item {
     width: 33%;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -376,7 +377,7 @@ main .section-4 {
     align-items: start;
     justify-content: space-between;
     border-radius: 24px;
-    margin: 80px 160px;
+    margin: 40px 160px;
     padding: 80px 0px;
 }
 
@@ -480,7 +481,7 @@ main .section-5 {
     align-items: start;
     justify-content: space-between;
     border-radius: 24px;
-    margin: 80px 160px;
+    margin: 40px 160px;
     padding: 80px 0px;
 }
 
@@ -560,7 +561,7 @@ main .section-6 {
     justify-content: space-between;
     gap: 32px;
     border-radius: 24px;
-    margin: 80px 350px;
+    margin: 40px 350px;
     padding: 80px 0px;
 }
 
@@ -638,7 +639,7 @@ main .section-7 {
     align-items: center;
     justify-content: space-between;
     gap: 3px;
-    margin: 80px 160px;
+    margin: 80px 160px 40px 160px;
     padding: 80px 100px 80px 100px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
