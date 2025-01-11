@@ -126,7 +126,7 @@ main .section-1 {
     justify-content: space-between;
     border-radius: 24px;
     background: rgb(198, 228, 214);
-    margin: 40px 160px;
+    margin: 20px 160px;
     padding: 4% 5%;
 }
 main .section-1 .left {
@@ -183,21 +183,19 @@ main .section-2 {
     align-items: start;
     justify-content: space-between;
     border-radius: 24px;
-    margin: 40px 160px;
+    margin: 20px 160px;
     padding: 80px 0px;
 }
 
 main .section-2 .item-layout {
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     gap: 20px;
 }
 
 main .section-2 .item-layout .item {
     width: 362px;
-    height: 360px;
     display: flex;
     flex-direction: column;
     gap: 2px;
@@ -206,7 +204,7 @@ main .section-2 .item-layout .item {
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding: 3%;
-    margin: 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 main .section-2 .item-layout .item img {
@@ -253,8 +251,8 @@ main .section-3 {
     align-items: start;
     justify-content: space-between;
     border-radius: 24px;
-    margin: 40px 160px;
-    padding: 80px 0px;
+    margin: 20px 160px;
+    padding: 0px 0px;
 }
 
 main .section-3 .item-layout {
@@ -377,8 +375,8 @@ main .section-4 {
     align-items: start;
     justify-content: space-between;
     border-radius: 24px;
-    margin: 40px 160px;
-    padding: 80px 0px;
+    margin: 80px 160px 0px 160px;
+    padding: 0px 0px;
 }
 
 main .section-4 .q-layout {
@@ -397,15 +395,19 @@ main .section-4 .q-layout table thead {
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     background: rgb(198, 228, 214);
-    padding: 24px;
+    padding: 0px;
 }
 
 main .section-4 .q-layout table thead .left {
-    margin-right: 75%;
+    margin-right: 70%;
 }
 
 main .section-4 .q-layout table thead .right {
     text-align: right;
+}
+
+main .section-4 .q-layout table .q-part {
+    width: 80%;
 }
 
 main .section-4 .q-layout table .option-part {
@@ -420,19 +422,17 @@ main .section-4 .q-layout table tbody span {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 10px;
     box-sizing: border-box;
     border: 1px solid rgb(14, 14, 14);
     border-radius: 4px;
     background: rgb(198, 228, 214);
     padding: 10px 14px 10px 14px;
-    margin: 24px 0px;
+    margin: 12px 0px;
 }
 
 main .section-4 .q-layout table tbody span i {
-    
+    margin: 2px 10px;
 }
-
 
 
 main .section-4 .q-layout table th {
@@ -481,8 +481,8 @@ main .section-5 {
     align-items: start;
     justify-content: space-between;
     border-radius: 24px;
-    margin: 40px 160px;
-    padding: 80px 0px;
+    margin: 80px 160px 0px 160px;
+    padding: 0px 0px;
 }
 
 main .section-5 .item-layout {
@@ -561,8 +561,8 @@ main .section-6 {
     justify-content: space-between;
     gap: 18px;
     border-radius: 24px;
-    margin: 40px 10%;
-    padding: 80px 0px;
+    margin: 80px 11% 0px 11%;
+    padding: 0px 0px;
 }
 
 main .section-6 p {
@@ -570,28 +570,28 @@ main .section-6 p {
 }
 
 main .section-6 .item-layout {
-    width: fit-content;
+    width: 100%;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    gap: 32px;
+    justify-content: center;
+    justify-content: space-around;
     margin: 32px 0;
 }
 
 main .section-6 .item-layout .item {
-    padding: 40px;
+    width: 24%;
+    padding: 2%;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0%;
-    text-align: left;
+    text-align: center;
 }
 
 main .section-6 .item-layout .bg-selected {
@@ -639,7 +639,7 @@ main .section-7 {
     align-items: center;
     justify-content: space-between;
     gap: 3px;
-    margin: 80px 160px 40px 160px;
+    margin: 80px 160px 0px 160px;
     padding: 80px 100px 80px 100px;
     border-radius: 24px;
     background: rgb(198, 228, 214);
@@ -701,7 +701,7 @@ main .section-7 .input-layout span:hover {
 footer {
     padding: 50px 160px 50px 160px;
     background: rgb(255, 255, 255);
-    margin-top: 180px;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
