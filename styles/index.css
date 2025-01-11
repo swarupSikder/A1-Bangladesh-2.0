@@ -193,10 +193,12 @@ main .section-2 .item-layout {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 32px;
+    gap: 20px;
 }
 
 main .section-2 .item-layout .item {
+    width: 362px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -488,14 +490,14 @@ main .section-5 .item-layout {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 32px;
-    margin: 32px 0;
+    gap: 38px;
+    margin: 38px 0;
 }
 
 main .section-5 .item-layout .item {
     display: flex;
     padding: 48px;
-    gap: 24px;
+    gap: 28px;
     border-radius: 24px;
     background: rgb(255, 255, 255);
 }
@@ -509,8 +511,8 @@ main .section-5 .item-layout .item .left {
 }
 
 main .section-5 .item-layout .item .left img {
-    width: 408px;
-    height: 306px;
+    width: 500px;
+    height: 350px;
     border-radius: 24px;
 }
 
@@ -533,8 +535,7 @@ main .section-5 .item-layout .item .right h1 {
 }
 
 main .section-5 .item-layout .item .right img {
-    width: 134px;
-    height: 40px;
+    width: 160px;
 }
 
 main .section-5 .item-layout .item .right button {
